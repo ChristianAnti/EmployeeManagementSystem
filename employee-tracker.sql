@@ -1,6 +1,7 @@
-CREATE DATABASE employee_tracker;
+DROP DATABASE IF EXISTS empolyeeManagmentSystem;
+CREATE DATABASE empolyeeManagmentSystem;
 
-USE employee_tracker;
+USE empolyeeManagmentSystem;
 
 
 -- Get values from the image in assets for each table the values are shown in the image so just followed that
