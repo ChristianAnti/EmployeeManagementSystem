@@ -1,8 +1,8 @@
 # EmployeeManagementSystem
 
-An employee management system that 
+An employee management system that allows for easy managment of roles departments and employees done thought the command line.
 
-Video link : 
+Video link : https://youtu.be/Fbni4B37PwQ
 
 ## Descripion 
 

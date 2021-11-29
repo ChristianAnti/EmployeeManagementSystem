@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS empolyeeManagmentSystem;
+-- DROP DATABASE IF EXISTS empolyeeManagmentSystem;
 CREATE DATABASE empolyeeManagmentSystem;
 
 USE empolyeeManagmentSystem;
@@ -27,7 +27,8 @@ CREATE TABLE employee (
     first_name VARCHAR(30) NOT NULL,
     last_name VARCHAR(30) NOT NULL,
     role_id INT NOT NULL,
-    is_manager BOOLEAN NOT NULL,
-    manager_id INT
+    is_manager BOOLEAN NOT NULL ,
+    manager_id INT ,
     PRIMARY KEY(id)
 );
+
