@@ -1,0 +1,27 @@
+{
+  "name": "employeemanagementsystem",
+  "version": "1.0.0",
+  "description": "An app that allows for viewing and editing info about employees",
+  "main": "db.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "Error"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristianAnti/EmployeeManagementSystem.git"
+  },
+  "author": "Christian Gleason",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristianAnti/EmployeeManagementSystem/issues"
+  },
+  "homepage": "https://github.com/ChristianAnti/EmployeeManagementSystem#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^8.2.0",
+    "mysql": "^2.18.1"
+  }
+}
