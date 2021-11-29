@@ -2,12 +2,16 @@ CREATE DATABASE employee_tracker;
 
 USE employee_tracker;
 
+
+-- Get values from the image in assets for each table the values are shown in the image so just followed that
+-- department is just id and name with primary key
 CREATE TABLE department (
     id INT AUTO_INCREMENT,
     name VARCHAR(30) NOT NULL,
     PRIMARY KEY(id)
 );
 
+-- role is id title salary and department_id 
 CREATE TABLE role (
     id INT AUTO_INCREMENT,
     title VARCHAR(30) NOT NULL,
@@ -16,6 +20,7 @@ CREATE TABLE role (
     PRIMARY KEY(id)
 );
 
+-- employee is id first_name last_name role_id manager_id 
 CREATE TABLE employee (
     id INT AUTO_INCREMENT,
     first_name VARCHAR(30) NOT NULL,
